@@ -4,6 +4,7 @@ Inspecting a MS sql server
 
 
 Dump all user created schemas, tables, and columns.
+
       SELECT
          sch.name,
          obj.name,
